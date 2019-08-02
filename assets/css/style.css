@@ -1,0 +1,80 @@
+
+/* ===================== global settings =================================*/
+@font-face {
+    font-family: FiraSans-Regular; /* Имя шрифта */
+    src: url(../fonts/FiraSans/FiraSans-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+
+h1, h2, h3, h4, h5, h6{ text-align: center; }
+
+.flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+.my-container{
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1250px;
+}
+
+.inpt-form::-webkit-input-placeholder {color:#fff;}
+.inpt-form::-moz-placeholder          {color:#fff;}/* Firefox 19+ */
+.inpt-form:-moz-placeholder           {color:#fff;}/* Firefox 18- */
+.inpt-form:-ms-input-placeholder      {color:#fff;}
+
+
+/* ===================== global settings =================================*/
+
+.block{
+  width: 30%;
+  padding: 25px;
+  border-bottom: 2px solid #ccc;
+  border-top: 2px solid #ccc;
+  border-radius: 10px;
+}
+
+#custom-wrap{
+  width: 100%; 
+  margin: 75px auto;
+}
+
+
+main{
+  padding: 50px 25px;
+}
+
+
+footer{
+  background: #F8F8F8;
+  padding: 45px;
+  border: 1px solid #ccc;
+}
+
+
+/* ===================== media queries =================================*/
+
+
+@media screen and (max-width: 1200px) and (min-width: 992px){
+  
+}
+
+
+@media screen and (max-width: 991px) and (min-width: 769px){
+  
+}
+
+
+@media screen and (max-width: 768px) and (min-width: 320px){
+
+}
+/* ===================== media queries =================================*/
