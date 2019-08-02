@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Bootstrap 101 Template</title>
+    <title>Уроки по PHP</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
@@ -30,7 +30,7 @@
                     <span class="icon-bar"></span>
                   </button>
                   <!-- Бренд или название сайта -->
-                  <a class="navbar-brand" href="#">Brand</a>
+                  <a class="navbar-brand" href="/">Главная</a>
                 </div>
                 <!-- Основная часть меню -->
                 <div class="collapse navbar-collapse" id="navbar-main">
@@ -38,7 +38,7 @@
                   <!-- Содержимое основной части -->
                   <ul class="nav navbar-nav">
                     <li class="active"><a href="#">Ссылка 1 <span class="sr-only">(current)</span></a></li>
-                    <li><a href="#">Ссылка 2</a></li>
+                    <li><a href="/?view=php_errors">Ошибки</a></li>
                     <li><a href="#">Ссылка 3</a></li>
                     <li><a href="#">Ссылка 4</a></li>
                     <li><a href="#">Ссылка 5</a></li>
